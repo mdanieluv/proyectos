@@ -23,6 +23,7 @@ for archivo in archivos:
     f = open(os.path.join("imagenes/train/Clase_1", archivo), "rb")
     # Leer el contenido del archivo
     contenido = f.read()
+    
     # Cerrar el archivo
     f.close()
     # Iniciar una página
